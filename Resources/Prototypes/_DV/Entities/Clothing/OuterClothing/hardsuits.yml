@@ -98,6 +98,7 @@
     sprite: _DV/Clothing/OuterClothing/Hardsuits/Combat/corpsman.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCombatCorpsman
+  - type: Insulated
 
 # Riot Combat Hardsuits
 - type: entity
