@@ -47,7 +47,7 @@
   - type: StationEvent
     weight: 18
   - type: GlimmerEvent
-    maximumGlimmer: 300
+    maximumGlimmer: 400 # Increased from 300 to 400
     glimmerBurnLower: 18
     glimmerBurnUpper: 40
 
@@ -56,7 +56,7 @@
   parent: BaseGlimmerEvent
   components:
   - type: GlimmerEvent
-    minimumGlimmer: 450
+    minimumGlimmer: 600 # Increased from 450 to 600
   - type: NoosphericZapRule
 
 - type: entity
