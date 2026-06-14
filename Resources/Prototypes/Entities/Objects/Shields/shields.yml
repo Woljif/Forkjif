@@ -14,6 +14,7 @@
       size: Ginormous
       #heldPrefix: riot #Harmony Change: Removed due to being redundant
     - type: Blocking
+      passiveBlockFraction: 0.35
       passiveBlockModifier:
         coefficients:
           Blunt: 0.9
@@ -113,6 +114,7 @@
     - type: StaticPrice
       price: 90
     - type: Blocking
+      passiveBlockFraction: 0.35
       passiveBlockModifier:
         coefficients:
           Blunt: 0.7
@@ -147,6 +149,7 @@
       - suitStorage
 # End of Harmony Change
     - type: Blocking
+      passiveBlockFraction: 0.35
       passiveBlockModifier:
         coefficients:
           Heat: 0.7
@@ -178,6 +181,7 @@
       - suitStorage
 # End of Harmony Change
     - type: Blocking
+      passiveBlockFraction: 0.35
       passiveBlockModifier:
         coefficients:
           Piercing: 0.7
@@ -562,6 +566,7 @@
       reflects:
         - Energy
     - type: Blocking
+      passiveBlockFraction: 0.35
       passiveBlockModifier:
         coefficients:
           Blunt: 1.0
@@ -690,3 +695,5 @@
                   max: 2
     - type: StaticPrice
       price: 150
+    - type: Blocking
+      passiveBlockFraction: 0.35
